@@ -34,25 +34,82 @@ h2{
     font-size: 25px;
     color: #620000;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
 
 img{
-    width: 20%;
-    display: flex;
-    border-radius: 14px;
+    width: 350px;
+    height: 204px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
 }
 
  p{
     color: #534C4C;
+    font-size: 13px;
+    margin: 14px;
 }
 
 .caixas h4{
     color: #620000;
+    font-size: 14px;
+    margin: 8px;
+    margin-top: 22px;
 }
 
+.min{
+    display: flex;
+    margin-top: -10px;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-left: 3px;
+}
+
+
 .box{
-    background-color: yellow;
-    height: 70px;
-    width: 70px;
+    background-color: white;
+    display: flex;
+    margin-bottom: 30px;
+    flex-direction: column;
+    max-width: 350px;
+    border-radius: 9px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.caixas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 65px;
+    
+}
+
+.rodape{
+    background: #8F3204;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+}
+
+.rodape p{
+    color: #FFE900;
+}
+
+.rodape-text{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 100px;
+}
+
+.rodape-text h1{
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.rodape-text p{
+    margin: 0;
+    font-size: 13px
 }
