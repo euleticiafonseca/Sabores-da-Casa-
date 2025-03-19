@@ -1,5 +1,5 @@
 * {
-    color:aliceblue; /*cor da letra(fonte)*/
+    color:white; /*cor da letra(fonte)*/
     font-family: 'Segoe UI', 'Roboto';
 }
 
@@ -11,6 +11,8 @@ body{
     flex-direction: column;
     padding: 0;
 }
+
+/* PÁGINA INICIAL INDEX */
 
 .main-title{
     background: #ee751c;
@@ -112,4 +114,110 @@ img{
 .rodape-text p{
     margin: 0;
     font-size: 13px
+}
+
+a{
+    text-decoration: none;
+    color: #620000;
+    font-size: 14px;
+    margin: 17px;
+    margin-top: 11px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+/* PÁGINA MODO DE PREPARO RISOTO PART1*/
+
+.rodape-sobre{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-top: -34px;
+}
+
+.rodape-sobre p{
+    color: white;
+    margin: 5px;
+    font-size: 13px;
+    margin-right: 16px;
+}
+
+
+.box-receita{
+    background-color: white;
+    display: flex;
+    margin-bottom: 30px;
+    flex-direction: column;
+    max-width: 450px;
+    border-radius: 9px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.custom-bullets{ 
+  list-style: none;
+  padding: 0;
+  margin: 10px;
+  margin-left: 25px;
+  margin-bottom: 18px;
+  font-size: 14px;
+}
+
+.custom-bullets li{
+    position: relative;
+    color: #000;
+    
+}
+
+.custom-bullets li::before{
+    content: '•';
+    color: #ee751c;
+    font-size: 1.5em;
+    position: sticky;
+    padding-right: 10px;
+    padding-left: 0;
+}
+
+.porcoes{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.abaixo{
+    color: black;
+    font-weight: bold;
+    margin: -4px;
+    margin-left: 14px;
+    border-bottom: 1px solid #a49e9e;
+    width: 255%;
+    height: 24px;
+}
+
+h3{
+    margin: 5px 4px 0px;
+    font-size: 14px;
+    font-weight: 500;
+    background: white;
+    border-radius: 3px;
+    width: 56%;
+    height: 25px;
+    text-align: center;
+    color: #000;
+}
+
+.caixa-risoto{
+    background-color: #dbd8d8;
+    width: 91%;
+    height: 34px;
+    margin: 10px;
+    border-radius: 6px;
+}
+
+.header img{
+    width: 105%;
+    height: 350px;
+}
+
+.header{
+    display: inline-block;
+    position: relative;
 }
